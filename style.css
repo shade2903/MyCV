@@ -1,54 +1,68 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body{
     
     background-color: #269ab8;
-    margin-top: 0;
-   
-  
-    
-
+ 
     
 }
 .pull-left{
+    /* display: flex;
+    flex-direction: column;    */
     height: 100%; 
     width: 16%; 
     position: fixed; 
     z-index: 1; 
     top: 0; 
-    left: 5%;
+    left: 8%;
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
     overflow-x: hidden; 
     padding-top: 15px;
     text-align: center;
 }
+
 .main {
     padding-top: 0%;
     background-color: #15cde6;
-    margin-left: 20%; 
+    margin-left: 23%; 
     margin-top: 0%;   
-    padding: 0px 16px;
-    margin-right: 5%;
+    padding: 0px 26px;
+    margin-right: 8%;
     top: 0;
     
 }
 
 .avatar{  
+    
     border-radius: 50%;
     width: 100px;
     height: 100px;
     border: 1px solid black;    
 }
-.name{    
+.name{  
+     margin-bottom: 5%;
     font-size: 32px;    
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgb(223, 10, 10), 0 0 1em blue ;
 }
+.skills{
+    margin-top: 5%;
+   
+    font-size: 32px;
+    font-weight:500;
+    
+}
 .pdate{  
   
     float:left;
-    padding-left: 2px;
+    padding-left: 5px;
 }
-.pdate > span{
+.list{
+    float:left; 
+    padding-left: 5px; 
+}
+
+.tbold{
     font-weight:bold;
 }
 
@@ -56,3 +70,22 @@ body{
 .heading{
     text-align: center;
 }
+
+.social a {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    float:left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 100% 27px 0px 10px;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+
+
