@@ -1,13 +1,16 @@
 body{
     
-    background-color: #D9AFD9;
-    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-color: #269ab8;
+    margin-top: 0;
+   
+  
+    
 
     
 }
 .pull-left{
     height: 100%; 
-    width: 15%; 
+    width: 16%; 
     position: fixed; 
     z-index: 1; 
     top: 0; 
@@ -15,71 +18,40 @@ body{
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
     overflow-x: hidden; 
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
-
 }
 .main {
-    background-color: #2AF598;
-    margin-left: 19%; 
-    padding: 0px 10px;
-    
-}
-/*.header{
-     position: sticky;
+    padding-top: 0%;
+    background-color: #15cde6;
+    margin-left: 20%; 
+    margin-top: 0%;   
+    padding: 0px 16px;
+    margin-right: 5%;
     top: 0;
-    z-index: 999;   
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
     
 }
-*/
-
 
 .avatar{  
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: 1px solid black;
-    text-align: center;
+    border: 1px solid black;    
 }
-.name{
-    
+.name{    
     font-size: 32px;    
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgb(223, 10, 10), 0 0 1em blue ;
 }
-.odate{
-    display: inline;
+.pdate{  
+  
+    float:left;
+    padding-left: 2px;
 }
-.pdate{
-   
-    padding-top: 20px;
-    font-size: 14px;
-    display: grid;
-    grid-template-areas: 
-    "one"
-    "two"
-    "three";   
-    grid-template-rows: 1fr 1fr 1fr ;
-    width: 25%; 
-    text-align: left;   
+.pdate > span{
+    font-weight:bold;
 }
 
-.one{  
-    
-    grid-area: one;
-}
-.two{
-    
-    
-    grid-area: two;
-}
-.three{
-   
-    
-    grid-area: three;
-}
 
 .heading{
     text-align: center;
