@@ -70,6 +70,9 @@ body{
 .heading{
     text-align: center;
 }
+ .text-italic{
+    font-style: italic;
+}
 
 .social a {
     text-align: center;
